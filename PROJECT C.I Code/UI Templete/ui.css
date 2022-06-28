@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(255, 255, 255)
+
+}
+
+#logo
+{
+    background-color: rgb(246, 246, 250);
+    height: 15%;
+
+}
+
+#buttons
+{
+    background-color: rgb(51, 43, 111);
+  
+
+}
+
+#titleone
+{
+    background-color: aqua; 
+    text-align: left;
+
+}
