@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(255, 255, 255)
+
+}
+
+#logo
+{
+    background-color: rgb(246, 246, 250);
+    height: 15%;
+
+}
+
+#buttons
+{
+    background-color: rgb(38, 24, 148);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+#smallTitle
+{
+    background-color: hsl(69, 65%, 51%);
+}
+
+#titleone
+{
+    background-color: rgb(95, 95, 95); 
+    text-align: left;
+    display: flex;
+}
+
+#content
+{
+    text-align: center;
+    margin-top: 360px;
+}
+
+.face
+{
+    border: 1px solid rgb(38, 24, 148);
+    background: none;
+    padding: 20px 40px;
+    font-size: 28px;
+    font-family: 'Segoe UI',Geneva;
+    cursor: pointer;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7
+{
+    color:rgb(38, 24, 148)
+}
+ 
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover
+{
+    color: rgb(38, 24, 148)
+};
+
+.face::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgb(38, 24, 148);
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1::before,.btn2::before,.btn3::before,.btn4::before,.btn5::before,.btn6::before,.btn7::before
+{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    height: 180%;
+}
+
+.btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before,.btn5:hover::before,.btn6:hover::before,.btn7:hover::before
+{
+    height: 0%;
+}
+
+
+
