@@ -1,26 +1,69 @@
 body
 {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(246, 246, 255)
 
 }
 
 #logo
 {
     background-color: rgb(246, 246, 250);
-    height: 15%;
-
+ 
+   
 }
 
 #buttons
 {
-    background-color: rgb(51, 43, 111);
-  
+    background-color: rgb(101, 146, 191);
+    height: 40px;
+    padding-left: 1100px;
+    
 
 }
 
 #titleone
 {
-    background-color: aqua; 
+    background-color: rgb(235, 235, 255); 
     text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    padding-left: 5px;
+    
+    height: 33px;
+   
+  
+   
+    
+
+}
+
+#smallTitle
+{
+    background-color: rgb(235, 235, 255); 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px ;
+    display: table;  
+    padding-left: 10px;
+    padding-right: 8px;
+   
+   
+   
+}
+
+#content
+{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin-left: 20px;
+    padding-left: 100px;
+    margin-right: 20px;
+
+}
+
+#home
+{
+    text-align: center;
 
 }
