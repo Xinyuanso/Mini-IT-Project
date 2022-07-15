@@ -1,0 +1,28 @@
+body
+{
+    background-color: rgb(255, 255, 255)
+
+}
+
+#logo
+{
+    background-color: rgb(246, 246, 250);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+  
+
+}
+
+#container
+{
+    background-color: rgb(246, 246, 250);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+  
+}
