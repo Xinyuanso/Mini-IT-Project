@@ -1,0 +1,53 @@
+<!--Template for basic UI design-->
+
+<!DOCTYPE html>
+
+    <head> 
+        <!--Please change the title and file name to corresponding webpage-->
+        <meta charset="UTF-8">
+        <title> CaMSys </title>
+        <link rel="stylesheet" type="text/css" href="BaseNavigation.css">
+        <link rel="icon" type="image/png" href="MMU_smalllogo.png">
+    </head>
+
+    <body>
+
+        <div id="logo">
+          <img src="MMU_logo.png" alt="MMU logo " width="200" height="70">
+        </div>
+
+        <div id="buttons">
+            <input id="home" type ="button" value=" Home " onclick="homebtn()"> 
+            <input id="signout" type ="button" value=" Sign Out " onclick="signoutbtn()">           
+      
+        </div>
+
+        <div id="StudentStatus">
+            <h2> Student Status </h2>
+        </div>
+
+        <div id="smallTitle">
+            <h3> Welcome Message </h3>
+        </div>
+
+        <div id="menubuttons">
+            <input class="btn" id="selfService" type="button" value="Self Service" onclick="SelfServicebtn()">
+            <input class="btn" id="e-voting" type="button" value="E - Voting" onclick="e_votingbtn()">
+            <input class="btn" id="campus" type="button" value="Campus Community" onclick="campusbtn()">
+            <input class="btn" id="records" type="button" value="Records and Enrollment" onclick="recordsbtn()">
+            <input class="btn" id="SAPS" type="button" value="SAPS & STAP Management" onclick="SAPSbtn()">
+            <input class="btn" id="setup" type="button" value="Setup SACR" onclick="setupbtn()">
+
+
+        </div>
+
+             <script type="text/javascript" src="Home&Signout.js"></script>
+             <script type="text/javascript" src="BaseNavigation.js"></script>
+    </body>
+
+</html>
+   
+
+ 
+
+

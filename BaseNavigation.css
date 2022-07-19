@@ -1,0 +1,107 @@
+body
+{
+    background-color: rgb(246, 246, 255)
+
+}
+
+#logo
+{
+    background-color: rgb(246, 246, 250);
+ 
+   
+}
+
+#buttons
+{
+    background-color: rgb(101, 146, 191);
+    height: 40px;
+    padding-left: 1250px;
+    
+
+}
+
+#StudentStatus
+{
+    background-color: rgb(235, 235, 255); 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    padding-left: 5px;
+    
+    height: 33px;
+   
+  
+   
+    
+
+}
+
+#smallTitle
+{
+    background-color: rgb(235, 235, 255); 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px ;
+    display: table;  
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-top: 60px;
+    width: 450px;
+   
+   
+   
+}
+
+
+
+#home
+{
+    background-color: rgb(255, 255, 255);
+		color: black;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+		border: none;
+		cursor: pointer;
+		width: 75px;
+        margin-top: 8px;
+        margin-right: 5px;
+
+
+}
+
+#signout
+{
+    background-color: rgb(255, 255, 255);
+		color: black;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+		border: none;
+		cursor: pointer;
+		width: 75px;
+        margin-top: 8px;
+}
+
+
+.btn
+{
+    background-color: rgb(134, 157, 194);
+		color: ghostwhite;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+		padding: 14px 20px;
+		margin-right: 20px;
+        margin-top: 25px;
+		border: none;
+		cursor: pointer;
+		width: 30%;
+
+}
+
+#menubuttons
+{
+   
+    padding-left: 550px;
+    padding-top: 50px;
+}
