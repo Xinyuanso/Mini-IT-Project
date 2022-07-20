@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="UTF-8">
-    <title> Academic </title>
-    <link rel="stylesheet" type="text/css" href="academics.css">
-</head>
+    <head> 
+        <!--Please change the title and file name to corresponding webpage-->
+        <meta charset="UTF-8">
+        <title> Academic </title>
+        <link rel="stylesheet" type="text/css" href="Academic.css">
+        <link rel="icon" type="image/png" href="MMU_smalllogo.png">
+    </head>
 
-<body>
-    <div id="logo">
-      <img src="MMU_logo.png" alt="MMU logo " width="250" height="85 ">
-    </div>
+    <body>
 
-    <div id="buttons">
-        <button>Home</button>
-        <button>Worklist</button>
-        <button>Sign Out</button>
-    </div>
+        <div id="logo">
+          <img src="MMU_logo.png" alt="MMU logo " width="200" height="70">
+        </div>
 
-    <div id="titleone">
-        <h2>" Academics "</h2>
-        <style>
-            h2 { color: rgb(239, 243, 246);}
-        </style>
-    </div>
+        <div id="buttons">
+            <input id="home" type ="button" value=" Home " onclick="homebtn()"> 
+            <input id="signout" type ="button" value=" Sign Out " onclick="signoutbtn()">   
+        </div>
+        <div id="titleone">
+            <h2> Academic </h2>
+        </div>
 
-    <div id="smallTitle">
-        <h3>"Main Menu > Self Service > Academic "</h3>
+        <div id="smallTitle">
+            <h3> <a href="BaseNavigation.html"> Main Menu </a> > <a href="SelfServiceMain.html"> Self Service </a> > <a href="Academic.html"> Academic </a> </h3>
+        </div>
 
-    </div>
-    
-    <!-- This is the 5 button for the academic. -->
-    <div class="content">
-        <button class="face btn1"> Course Enrollment </button>
-        <button class="face btn2"> Industrial Training Program </button>
-        <button class="face btn3"> Academic Records </button>
-        <button class="face btn4"> Degree Progress/Graduation </button>
-        <button class="face btn5"> Transfer Credit </button>
-    </div>
+        <div class="content">
+            <button class="face btn1" onclick="location.href='CourseEnrollment.html'"> Course Enrollment </button>
+            <button class="face btn2" onclick="location.href='IndustrialTrainingProgram.html'"> Industrial Training Program </button>
+            <button class="face btn3" onclick="location.href='AcademicRecords.html'"> Academic Records </button>
+            <button class="face btn2" onclick="location.href='DegreeProgress.html'"> Degree Progress / Graduation </button>
+            <button class="face btn3" onclick="location.href='TransferCredit.html'"> Transfer Credit </button>
+        </div>
 
-    <script type="text/c++" src="academics.cpp"></script>
-</body>
+        <script type="text/javascript" src="Home&Signout.js"></script> 
+    </body>
 
 </html>
