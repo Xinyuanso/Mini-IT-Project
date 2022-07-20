@@ -1,125 +1,91 @@
-.body
+body
 {
-    background-color: rgb(255, 255, 255)
-}
-
-/* This is the logo. */
-.logo
-{
-    cursor: pointer;
-    width: 175px;
-    height: 65px; 
-}
-
-/* This is the search bar. */
-.search-bar
-{
-   width: 100%;
-   max-width: 700px;
-   background: rgba(42, 30, 30, 0.612);
-   display: flex;
-   align-items: center;
-   border-radius: 60px;
-   padding: 8px 25px;
-   backdrop-filter: blur(4px) saturate(180%);
-}
-
-.search-bar input
-{
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 18px 15px;
-    font-size: 20px;
-    color: rgb(209, 207, 207);
-}
-
-::placeholder
-{
-    color: rgb(209, 207, 207);
-}
-
-.search-bar button img
-{
-    width: 25px;
-}
-
-.search-bar button
-{
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: rgb(179, 189, 189);
-    cursor: pointer;
+    background-color: rgb(246, 246, 255)
 
 }
 
-/* This is the navigation buttons. */
-.buttons
+#logo
 {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Segoe UI', Geneva;
+    background-color: rgb(246, 246, 250);
+ 
+   
 }
 
-.buttons ul li 
+#buttons
 {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+    background-color: rgb(101, 146, 191);
+    height: 40px;
+    padding-left: 1250px;
+    
+
 }
 
-.buttons ul li a
+#titleone
 {
-    text-decoration: none;
-    color: rgb(38, 24, 148);
-    text-transform: uppercase;
-}
-
-.buttons ul li::after
-{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-.buttons ul li:hover::after
-{
-    width: 100%;
-}
-
-/* This is the title. */
-#title
-{
-    background:rgb(38, 24, 148);
-    color: #fff; 
+    background-color: rgb(235, 235, 255); 
     text-align: left;
-    display: flex; 
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    padding-left: 5px;
+    
+    height: 33px;
+   
+  
+   
+    
+
 }
 
-/* This is the place where we go to. */
 #smallTitle
 {
-    background-color: hsl(69, 65%, 51%);
+    background-color: rgb(235, 235, 255); 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px ;
+    display: table;  
+    padding-left: 10px;
+    padding-right: 8px;
+   
+   
+   
 }
 
-/* This is the buttons. */
+#home
+{
+    background-color: rgb(255, 255, 255);
+		color: black;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+		border: none;
+		cursor: pointer;
+		width: 75px;
+        margin-top: 8px;
+        margin-right: 5px;
+
+
+}
+
+#signout
+{
+    background-color: rgb(255, 255, 255);
+		color: black;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+		border: none;
+		cursor: pointer;
+		width: 75px;
+        margin-top: 8px;
+}
+
 #content
 {
-    text-align: center;
-    margin-top: 360px;
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin-left: 20px;
+    padding-left: 100px;
+    margin-right: 20px;
 }
 
 .face
