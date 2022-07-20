@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="UTF-8">
-    <title> STAP & Travelling Requisition Online </title>
-    <link rel="stylesheet" type="text/css" href="STAPandTravellingRequisitionOnline.css">
-</head>
+    <head> 
+        <!--Please change the title and file name to corresponding webpage-->
+        <meta charset="UTF-8">
+        <title> STAP & Travelling Requisition Online </title>
+        <link rel="stylesheet" type="text/css" href="STAPandTravellingRequisitionOnline.css">
+        <link rel="icon" type="image/png" href="MMU_smalllogo.png">
+    </head>
 
-<body>
-<!-- This is the mmu logo. -->
-    <div class="buttons">
-        <img src="MMU_logo.png" 
-             alt="MMU logo "  
-             class="logo">
+    <body>
 
-<!-- This is the search bar. -->
-             <div>
-                <form action="" method="get" class="search-bar">
-                    <input type="text" placeholder="search anything" name="q">
-                    <button type="submit"><img src="search_icon.png"></button>
-                </form>
-            </div>
-        
-<!-- This is the navigation buttons. -->
-        <ul>
-            <li><a href="#"> Home </a></li>
-            <li><a href="#"> Worklist </a></li>
-            <li><a href="#"> Sign Out </a></li>
-        </ul>
-    </div>
+        <div id="logo">
+          <img src="MMU_logo.png" alt="MMU logo " width="200" height="70">
+        </div>
 
-<!-- This is the title for the webpages. -->
-    <div id="title">
-        <h2>" STAP & Travelling Requisition Online "</h2>
-    </div>
+        <div id="buttons">
+            <input id="home" type ="button" value=" Home " onclick="homebtn()"> 
+            <input id="signout" type ="button" value=" Sign Out " onclick="signoutbtn()">   
+        </div>
+        <div id="titleone">
+            <h2> STAP & Travelling Requisition Online </h2>
+        </div>
+
+        <div id="smallTitle">
+            <h3> <a href="BaseNavigation.html"> Main Menu </a> > <a href="SelfServiceMain.html"> Self Service </a> > <a href="CampusLifestyle.html"> Campus Lifestyle </a> > <a href="STAPandTravellingRequisitionOnline.html"> STAP & Travelling Requisition Online </a> </h3>
+        </div>
 
 <!-- This is the place we already go. -->
     <div id="smallTitle">
@@ -46,7 +38,7 @@
         <button class="face btn3" onclick="location.href='TravellingRequisitionOnline.html'"> Travelling Requisition Online </button>
     </div>
 
-    <script type="text/c++" src="academics.cpp"></script>
+    <script type="text/javascript" src="Home&Signout.js"></script> 
 </body>
 
 </html>
