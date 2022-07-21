@@ -1,0 +1,48 @@
+body
+{
+    background-color:rgb(255,255,255);
+}
+
+.logo
+{
+    background-color: rgb(246,246,250);
+    height: 15%;
+}
+
+.buttons
+{
+    background-color: rgb(51,43,111);
+    text-align: center;
+}
+
+.titleone
+{
+    background-color: aqua;
+    text-align: left;
+}
+
+.head{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.title_2{
+	margin-top: 15px;
+}
+
+.nosea{
+	font-weight: bold;
+}
+
+.con{
+	margin-left: 25px;
+}
+
+.con1{
+	margin-left: 85px;
+}
+
+.upbutt1{
+	margin-top: 10px;
+	text-decoration: underline;
+}

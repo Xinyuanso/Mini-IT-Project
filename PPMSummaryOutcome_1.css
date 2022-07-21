@@ -1,0 +1,53 @@
+body
+{
+    background-color:rgb(255,255,255);
+}
+
+.logo
+{
+    background-color: rgb(246,246,250);
+    height: 15%;
+}
+
+.buttons
+{
+    background-color: rgb(51,43,111);
+    text-align: center;
+}
+
+.titleone
+{
+    background-color: aqua;
+    text-align: left;
+}
+
+
+.square{
+	background-color: aqua;
+	width: 260px;
+	padding:5px;
+	border-radius: 5px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
+.exvalue{
+	margin-top:10px;
+}
+
+.upbutt{
+	margin-top: 10px;
+}
+
+.upbutt1{
+	margin-top: 10px;
+	text-decoration: underline;
+}
