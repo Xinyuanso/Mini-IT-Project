@@ -2,7 +2,7 @@
 
 For semester 3 mini IT project (06062022 - 31072022)
 
-<INSPIRE>
+INSPIRE
 
 ------ 25072022 -------
 
@@ -19,9 +19,9 @@ For semester 3 mini IT project (06062022 - 31072022)
   { ADRIAN TAN BOCK CHOON }
   { TAN CHOON SHEN }
   
-  <!---WORK SMART DONT WORK HARD----> 
+  !---WORK SMART DONT WORK HARD----
   
-</INSPIRE>
+/INSPIRE
 
 
 
